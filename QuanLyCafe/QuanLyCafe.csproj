@@ -46,11 +46,19 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+<<<<<<< HEAD
     <Compile Include="Admin\AdminMainForm.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="Admin\AdminMainForm.Designer.cs">
       <DependentUpon>AdminMainForm.cs</DependentUpon>
+=======
+    <Compile Include="Admin\AdminForm.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Admin\AdminForm.Designer.cs">
+      <DependentUpon>AdminForm.cs</DependentUpon>
+>>>>>>> c1fe497ff6e1e44e355b35ad1816c6f60764a08a
     </Compile>
     <Compile Include="Cashier\AddCashier.cs">
       <SubType>UserControl</SubType>
@@ -58,9 +66,13 @@
     <Compile Include="Cashier\AddCashier.Designer.cs">
       <DependentUpon>AddCashier.cs</DependentUpon>
     </Compile>
+<<<<<<< HEAD
     <Compile Include="Cashier\CashierMainFormcs.cs">
       <SubType>Form</SubType>
     </Compile>
+=======
+    <Compile Include="Cashier\CashierMainFormcs.cs" />
+>>>>>>> c1fe497ff6e1e44e355b35ad1816c6f60764a08a
     <Compile Include="Cashier\CashierMainFormcs.Designer.cs">
       <DependentUpon>CashierMainFormcs.cs</DependentUpon>
     </Compile>
@@ -78,11 +90,16 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+<<<<<<< HEAD
     <EmbeddedResource Include="Admin\AdminMainForm.resx">
       <DependentUpon>AdminMainForm.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Cashier\CashierMainFormcs.resx">
       <DependentUpon>CashierMainFormcs.cs</DependentUpon>
+=======
+    <EmbeddedResource Include="Admin\AdminForm.resx">
+      <DependentUpon>AdminForm.cs</DependentUpon>
+>>>>>>> c1fe497ff6e1e44e355b35ad1816c6f60764a08a
     </EmbeddedResource>
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
@@ -116,5 +133,6 @@
   <ItemGroup>
     <Content Include="Assets\Cafe_2.png" />
   </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
