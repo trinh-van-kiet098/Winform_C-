@@ -31,7 +31,7 @@ namespace QuanLyCafe
 
         private void register_showPass_CheckedChanged(object sender, EventArgs e)
         {
-            register_password.PasswordChar = register_showPass.Checked ? '\0' : '*';
+            register_password.PasswordChar = register_showPass.Checked ? '\0' : '*';    
             register_cPassword.PasswordChar = register_showPass.Checked ? '\0' : '*';
 
         }
