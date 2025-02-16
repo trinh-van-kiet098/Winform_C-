@@ -16,5 +16,17 @@ namespace QuanLyCafe.Cashier
         {
             InitializeComponent();
         }
+
+        private void InitializeComponent()
+        {
+            this.SuspendLayout();
+            // 
+            // CashierMainFormcs
+            // 
+            this.ClientSize = new System.Drawing.Size(650, 253);
+            this.Name = "CashierMainFormcs";
+            this.ResumeLayout(false);
+
+        }
     }
 }

@@ -1,4 +1,7 @@
-﻿namespace QuanLyCafe
+﻿using System;
+using System.IO;
+using System.Windows.Forms;
+namespace QuanLyCafe
 {
     partial class Form1
     {
@@ -60,7 +63,7 @@
             // 
             // pictureBox1
             // 
-            this.pictureBox1.Image = global::QuanLyCafe.Properties.Resources.Cafe_2;
+            this.pictureBox1.Image = QuanLyCafe.Properties.Resources.Cafe_2;
             this.pictureBox1.Location = new System.Drawing.Point(108, 84);
             this.pictureBox1.Name = "pictureBox1";
             this.pictureBox1.Size = new System.Drawing.Size(100, 100);
