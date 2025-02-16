@@ -1,4 +1,5 @@
-﻿using System;
+﻿using QuanLyCafe.Cashier;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -26,7 +27,18 @@ namespace QuanLyCafe
         {
             fRegister registerForm = new fRegister();
             registerForm.Show();
-            this.Hide();
+            this.Hide();          
+        }
+
+        private void dangnhap_dangNhapBtn_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void dangnhap_showPass_CheckedChanged(object sender, EventArgs e)
+        {
+            login_password.PasswordChar = login_showPass.Checked ? '\0' : '*';
+
         }
     }
 }

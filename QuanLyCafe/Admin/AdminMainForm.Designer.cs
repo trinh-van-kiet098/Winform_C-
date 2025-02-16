@@ -1,6 +1,6 @@
-﻿namespace QuanLyCafe.Cashier
+﻿namespace QuanLyCafe.Admin
 {
-    partial class CashierMainFormcs
+    partial class AdminMainForm
     {
         /// <summary>
         /// Required designer variable.
@@ -55,7 +55,7 @@
             this.panel1.Location = new System.Drawing.Point(0, 0);
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(1100, 46);
-            this.panel1.TabIndex = 0;
+            this.panel1.TabIndex = 1;
             // 
             // label1
             // 
@@ -95,7 +95,7 @@
             this.panel2.Location = new System.Drawing.Point(0, 46);
             this.panel2.Name = "panel2";
             this.panel2.Size = new System.Drawing.Size(216, 554);
-            this.panel2.TabIndex = 1;
+            this.panel2.TabIndex = 2;
             // 
             // button5
             // 
@@ -133,7 +133,7 @@
             this.button3.Name = "button3";
             this.button3.Size = new System.Drawing.Size(176, 38);
             this.button3.TabIndex = 13;
-            this.button3.Text = "Order";
+            this.button3.Text = "Add Products";
             this.button3.UseVisualStyleBackColor = true;
             // 
             // button2
@@ -146,7 +146,7 @@
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(176, 38);
             this.button2.TabIndex = 14;
-            this.button2.Text = "Add Products";
+            this.button2.Text = "Add Cashier";
             this.button2.UseVisualStyleBackColor = true;
             // 
             // button1
@@ -213,9 +213,9 @@
             this.panel3.Location = new System.Drawing.Point(216, 46);
             this.panel3.Name = "panel3";
             this.panel3.Size = new System.Drawing.Size(884, 554);
-            this.panel3.TabIndex = 2;
+            this.panel3.TabIndex = 3;
             // 
-            // CashierMainFormcs
+            // AdminMainForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -224,9 +224,8 @@
             this.Controls.Add(this.panel2);
             this.Controls.Add(this.panel1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
-            this.Name = "CashierMainFormcs";
-            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "CashierMainFormcs";
+            this.Name = "AdminMainForm";
+            this.Text = "AdminMainForm";
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
             this.panel2.ResumeLayout(false);
@@ -239,18 +238,18 @@
         #endregion
 
         private System.Windows.Forms.Panel panel1;
-        private System.Windows.Forms.Panel panel2;
-        private System.Windows.Forms.PictureBox pictureBox1;
-        private System.Windows.Forms.Label dangnhap_close;
         private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.Label label3;
-        private System.Windows.Forms.Label label2;
-        private System.Windows.Forms.Button button1;
-        private System.Windows.Forms.Label label4;
+        private System.Windows.Forms.Label dangnhap_close;
+        private System.Windows.Forms.Panel panel2;
         private System.Windows.Forms.Button button5;
         private System.Windows.Forms.Button button4;
         private System.Windows.Forms.Button button3;
         private System.Windows.Forms.Button button2;
+        private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.Label label4;
+        private System.Windows.Forms.Label label3;
+        private System.Windows.Forms.Label label2;
+        private System.Windows.Forms.PictureBox pictureBox1;
         private System.Windows.Forms.Panel panel3;
     }
 }

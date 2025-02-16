@@ -46,6 +46,24 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Admin\AdminMainForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Admin\AdminMainForm.Designer.cs">
+      <DependentUpon>AdminMainForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Cashier\AddCashier.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Cashier\AddCashier.Designer.cs">
+      <DependentUpon>AddCashier.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Cashier\CashierMainFormcs.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Cashier\CashierMainFormcs.Designer.cs">
+      <DependentUpon>CashierMainFormcs.cs</DependentUpon>
+    </Compile>
     <Compile Include="Form1.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -60,6 +78,12 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="Admin\AdminMainForm.resx">
+      <DependentUpon>AdminMainForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Cashier\CashierMainFormcs.resx">
+      <DependentUpon>CashierMainFormcs.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
     </EmbeddedResource>
